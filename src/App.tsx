@@ -28,7 +28,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
         <CredentialsProvider>
-          <Router basename="/dashboard">
+          <Router>
             <Routes>
               <Route path="/" element={<Index />} />
 
